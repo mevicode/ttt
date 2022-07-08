@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(227, 227, 227);
+    align-items: center;
+}
+
+.canvas{
+    width: 387px;
+    margin: auto;
+    text-align: center;
+    font-weight: 850;
+    font-size: 20px;
+    color: rgb(67, 58, 255);
+    font-family: cursive;
+}
+
+h1 {
+    color: rgb(255, 183, 0);
+-webkit-text-stroke-width: 1.2px;
+-webkit-text-stroke-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.title {
+    background-color: rgb(32, 32, 32);
+    padding: 5px 0;
+    margin: 3px 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+
+.AllBoxes {
+
+    background-color: rgb(253, 253, 253);
+    width: 125px;
+    height: 125px;
+    float: left;
+    margin: 2px;
+    font-size: 95px;
+    text-align: center;
+}
+
+.AllBoxes:hover{
+    background-color: rgb(255, 187, 85);
+    cursor: pointer;
+
+}
+
+
+
+button.Rest{
+
+    color: rgb(0, 0, 0); 
+    background: none;
+    height: 40px; width: 150px;
+    border-radius: 17px;
+    border-color:  rgb(255, 183, 0);
+    font-size: larger;
+    display: block;
+    margin: auto;
+    align-items: center;
+
+   
+
+}
+
+button:hover {
+
+    background-color: rgb(255, 170, 0);
+}
